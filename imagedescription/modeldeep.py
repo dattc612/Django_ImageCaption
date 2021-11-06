@@ -48,7 +48,7 @@ DATA_FOR_DEEP = settings.DATA_FOR_DEEP
 
 SOS_token = 1
 
-DEVICE = torch.device('CPU')
+DEVICE = torch.device('cpu')
 
 with open(os.path.join(DATA_FOR_DEEP,'vocab.txt'),'rb') as f:
   VOCAB = pickle.load(f)
