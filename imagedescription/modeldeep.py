@@ -48,13 +48,13 @@ DATA_FOR_DEEP = settings.DATA_FOR_DEEP
 
 SOS_token = 1
 
-DEVICE = torch.device('cpu')
+DEVICE = torch.device('CPU')
 
 with open(os.path.join(DATA_FOR_DEEP,'vocab.txt'),'rb') as f:
   VOCAB = pickle.load(f)
 
 
-ENCODER = torch.load(os.path.join(DATA_FOR_DEEP,'encoder2.pth')).to(DEVICE)
+ENCODER = torch.load(os.path.join(DATA_FOR_DEEP,'encoder2.pth'), map_location=DEVICE)
 
 
 DECODER = Decoder(2048, len(VOCAB), 256)
