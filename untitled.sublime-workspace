@@ -1,0 +1,376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ia",
+				"Images"
+			],
+			[
+				"DE",
+				"DEVICE"
+			],
+			[
+				"de",
+				"device"
+			],
+			[
+				"Ima",
+				"Images"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"Voc",
+				"VOCAB"
+			],
+			[
+				"model",
+				"modeldeep"
+			],
+			[
+				"BAS",
+				"BASE_DIR"
+			],
+			[
+				"conte",
+				"context"
+			],
+			[
+				"Imag",
+				"Image"
+			],
+			[
+				"PL",
+				"PIL"
+			],
+			[
+				"torch",
+				"torchvision"
+			],
+			[
+				"imageF",
+				"ImageField"
+			],
+			[
+				"image",
+				"ImageField"
+			],
+			[
+				"ME",
+				"MEDIA_ROOT"
+			],
+			[
+				"d",
+				"default"
+			],
+			[
+				"Mode",
+				"ModelForm"
+			],
+			[
+				"MEDIA",
+				"MEDIA_URL"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"Image",
+				"ImageField"
+			],
+			[
+				"Fo",
+				"Form"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"as",
+				"as_p"
+			],
+			[
+				"Pro",
+				"Product"
+			],
+			[
+				"context",
+				"contexts"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"Tex",
+				"TextField"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/gk"
+	],
+	"file_history":
+	[
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/gk/wsgi.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/gk/settings.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/models.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/admin.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/db.sqlite3",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/views.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/templates/imagedescription/index.html",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/forms.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/modeldeep.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/urls.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/modeldeep/decoder.pth",
+		"/home/bimuntu/Downloads/decoder (1).pth",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/imagedescription/ModelDeep.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/media/image/Screenshot_from_2021-10-12_09-17-52.png",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/media/image/Screenshot_from_2021-10-12_08-31-43.png",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/media/image/Screenshot_from_2021-10-12_11-08-15.png",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/untitled.sublime-project",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/BTL/gk/urls.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/imagedescription/forms.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/imagedescription/views.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/imagedescription/models.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/views.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/imagedescription/templates/imagedescription/home.html",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/giuaki/settings.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/forms.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/imagedescription/urls.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/migrations/0002_alter_product_title.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/imagedescription/migrations/0001_initial.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/giuaki/urls.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/models.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/urls.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/templates/create_product.html",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/admin.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/untitled.sublime-workspace",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/templates/product.html",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/pages/templates/product.html",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/pages/models.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/product/templates/home.html",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/pages/views.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/pages/templates/home.html",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/pages/urls.py",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/templates/home.html",
+		"/media/bimuntu/CaoDat/IAMDAT/Workplace/CongNgheMoi/trydjango/untitled.sublime-project"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DEFAULT_FILE_STORAGE"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

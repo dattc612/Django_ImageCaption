@@ -1,0 +1,116 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<title>Document</title>
+</head>
+
+<body class='bg-dark'>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		<div class="container">
+			<h1>
+				<a href="#" class="navbar-brand">IMAGE DESCRIPTION</a>
+			</h1>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="https://covid19.gov.vn/" class="nav-link">THÔNG TIN VỀ COVID-19</a>
+					</li>
+					<li class="nav-item">
+						<a href="#questions" class="nav-link">GIỚI THIỆU VỀ TRANG WEB</a>
+					</li>
+					<li cla ss="nav-item">
+						<a href="#instructors" class="nav-link">CHÚNG TÔI</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--navbar-->
+
+	<!-- showcase -->
+	<section class="bg-dark text-light p-5 text-center text-sm-start">
+		<div class="contener">
+			<div class="d-sm-flex">
+				<div>
+					<h3> VÌ THẾ GIỚI <span class="text-warning">KHÔNG COVID-19</span> HÃY ĐEO KHẨU TRANG NƠI CÔNG CỘNG
+					</h3>
+					<p> &ldquo; COVID-19 tác động đến mỗi người theo những cách khác nhau. Hầu hết những người nhiễm
+						vi-rút sẽ có triệu chứng bệnh từ nhẹ đến trung bình và có thể hồi phục mà không cần nhập viện.
+						&rdquo;</p>
+					<button class="btn btn-primary btn-lg"> Start</button>
+				</div>
+				<img src="{% static 'imagedescription/images/showcase.png' %} " class="img-fluid d-none d-sm-block"
+					style="max-width:40%;"></img>
+			</div>
+
+		</div>
+	</section>
+
+	<!--body -->
+	<section class="text-light text-center" style="height: 600px;">
+		<div class="contener">
+			{% block content %}
+			<h1>IMAGE DESCRIPTION </h1>
+			
+			<img id="myimage" height="300" width="500" src="{{obj.img.url}}"></br>
+			<form method="POST" action="" enctype="multipart/form-data">
+				{% csrf_token %}
+				
+				<input id="img" type="file" class="" name="img" onchange="onFileSelected(event)"/>
+				<p>DESCRIPTION: {{description}} {{myImage.url}} </p>
+				<p>image saved: {{obj.img.url}}</p>
+				
+
+				<input type="submit" value="OK" />
+			</form>
+			{% endblock %}
+			<script>
+
+				function onFileSelected(event) {
+					var selectedFile = event.target.files[0];
+					var reader = new FileReader();
+
+					var imgtag = document.getElementById("myimage");
+					imgtag.title = selectedFile.name;
+
+					reader.onload = function (event) {
+						imgtag.src = event.target.result;
+					};
+
+					reader.readAsDataURL(selectedFile);
+				}
+			</script>
+
+		</div>
+	</section>
+
+
+
+	<footer class="text-center text-white" style="background-color: #45637d;">
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+			© 18032131 Cao Thanh Dat
+			<a class="text-white" href="https://mdbootstrap.com/">CaoThanhDat</a>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
